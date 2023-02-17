@@ -96,7 +96,7 @@
            data-slide="next">
             <span class="fas fa-chevron-right fa-2x"></span>
         </a>
-
+<h>hej</h>
         <!--Previous and Next Buttons-->
     </div>
 </section>
