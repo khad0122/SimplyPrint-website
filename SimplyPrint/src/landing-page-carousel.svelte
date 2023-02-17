@@ -90,6 +90,7 @@
         <a href="#carousel" class="carousel-control-prev" role="button"
            data-slide="prev">
             <span class="fas fa-chevron-left fa-2x"></span>
+
         </a>
         <a href="#carousel" class="carousel-control-next" role="button"
            data-slide="next">
