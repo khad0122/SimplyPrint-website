@@ -1,0 +1,157 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	background-color: #F3F2EF!important;
+	margin: 0;
+
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+main{
+	padding:0px !important;
+}
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+/*==== NAVIGATION ====*/
+
+
+.navbar-brand img {
+	height: 3rem;
+
+
+
+}
+.navbar{
+	font-size: 1.10rem;
+	letter-spacing: 0.07rem;
+	z-index:99;
+	margin:10px;
+
+}
+.nav-link{
+	color: white!important;
+}
+
+.nav-link:hover{
+	color: #bcd5f1 !important;
+	font-weight: 450;
+}
+
+.btn{
+	margin:0.6rem;
+	padding-left: 1.8rem !important;
+	padding-right: 30px!important;
+	border-radius: 2px!important;
+
+
+}
+
+/*==== Carousel ====*/
+
+#carousel{
+	box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
+	margin-top: -100px;
+	margin-bottom: 10px;
+
+
+}
+
+
+.carousel-inner{
+	max-height: 42rem!important;
+
+
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+	transition: transform 1.2s ease;
+}
+
+/*==== Carousel  content====*/
+
+.carousel-caption{
+	position: absolute;
+	top: 48%;
+	transform: translateY(-50%);
+
+
+}
+
+.bg-custom{
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	border-radius: 1rem;
+
+}
+.carousel-caption h1{
+	font-size: 2.7rem!important;
+	text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
+
+}
+
+.border{
+	border-bottom: .2rem solid !important;
+	background-color: #bcd5f1 !important;
+}
+.carousel-caption p{
+	font-size: 1.3rem;
+	text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
+
+}
+.btn-light:hover{
+	background-color: #bcd5f1 !important;
+}
