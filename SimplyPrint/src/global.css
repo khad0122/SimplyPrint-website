@@ -65,30 +65,6 @@ button:focus {
 	border-color: #666;
 }
 
-/*==== NAVIGATION ====*/
-
-
-.navbar-brand img {
-	height: 3rem;
-
-
-
-}
-.navbar{
-	font-size: 1.10rem;
-	letter-spacing: 0.07rem;
-	z-index:99;
-	margin:10px;
-
-}
-.nav-link{
-	color: white!important;
-}
-
-.nav-link:hover{
-	color: #bcd5f1 !important;
-	font-weight: 450;
-}
 
 .btn{
 	margin:0.6rem;
@@ -97,61 +73,4 @@ button:focus {
 	border-radius: 2px!important;
 
 
-}
-
-/*==== Carousel ====*/
-
-#carousel{
-	box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
-	margin-top: -100px;
-	margin-bottom: 10px;
-
-
-}
-
-
-.carousel-inner{
-	max-height: 42rem!important;
-
-
-}
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active{
-	transition: transform 1.2s ease;
-}
-
-/*==== Carousel  content====*/
-
-.carousel-caption{
-	position: absolute;
-	top: 48%;
-	transform: translateY(-50%);
-
-
-}
-
-.bg-custom{
-	background-color: rgba(0,0,0,0.4);
-	color: white;
-	border-radius: 1rem;
-
-}
-.carousel-caption h1{
-	font-size: 2.7rem!important;
-	text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
-
-}
-
-.border{
-	border-bottom: .2rem solid !important;
-	background-color: #bcd5f1 !important;
-}
-.carousel-caption p{
-	font-size: 1.3rem;
-	text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
-
-}
-.btn-light:hover{
-	background-color: #bcd5f1 !important;
 }
