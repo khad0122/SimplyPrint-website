@@ -3,19 +3,34 @@
 <script>
 	export let name;
 	import Navigation from "./navigation-bar.svelte"
-	import Section1 from "./section1.svelte"
+
 	import LandingPageCarousel from "./landing-page-carousel.svelte";
 	import ThreeColumn from "./three-columns.svelte";
-	import ProductDescription from "./product-description.svelte";
+
+	import Getstarted from "./get-started.svelte"
+	import SystemFunctions from "./system-functions.svelte"
+	import TrustPilot from "./trustpilot-reviews.svelte"
+	import Footer from "./footer.svelte"
+	import QA from "./Q&A.svelte";
+	import AboutUs from "./about-us.svelte"
+	import Price from "./price.svelte"
+
+
 </script>
 
 <main>
 	<Navigation/>
 	<LandingPageCarousel/>
 	<ThreeColumn/>
-	<ProductDescription/>
+	<Getstarted/>
+	<SystemFunctions/>
+	<TrustPilot/>
+	<QA/>
+	<Price/>
+	<AboutUs/>
+	<Footer/>
 
-	<Section1/>
+
 </main>
 
 <style>
@@ -26,12 +41,7 @@
 		margin: 0 auto;
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
+
 
 
 </style>

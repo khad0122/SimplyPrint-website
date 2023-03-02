@@ -27,24 +27,57 @@
                     <a class="nav-link active" href="index.html">Overblik</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.google.dk/">Funktioner</a>
+                    <a class="nav-link" href="#">Funktioner</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.google.dk/">Priser</a>
+                    <a class="nav-link" href="#">Priser</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.google.dk/">Om os</a>
+                    <a class="nav-link" href="#">Om os</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMore" role="button" data-toggle="dropdown"
+                <li id="toggleMore" class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="moredropdownn" role="button"
+                       data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
-                        Mere
+                        More
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMore">
-                        <a class="dropdown-item" href="https://www.google.dk/">Action</a>
-                        <a class="dropdown-item" href="https://www.google.dk/">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://www.google.dk/">Something else here</a>
+                    <div id="moredropdown" class="dropdown-menu dropdown-menu-center text-white">
+                        <div class="row">
+                            <div class="col-4">
+
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/compatibility">
+                                    Kompatibilitetsliste
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/downloads">
+                                    Downloads
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/faq">
+                                    FAQ
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/octoprint-difference">
+                                    OctoPrint v. SimplyPrint?
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://help.simplyprint.io/" target="_blank" rel="noopener">
+                                    Dokumentation (wiki)
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://status.simplyprint.io/" target="_blank" rel="noopener">
+                                    Status side
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/credit">
+                                    Credit
+                                </a>
+
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/print-troubleshoot">
+                                    Print fejlfinding
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/wifi-generate">
+                                    WiFi-fil generator
+                                </a>
+                                <a class="dropdown-item waves-effect waves-light" href="https://simplyprint.io/da/branding">
+                                    Brand &amp; medie-kit
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -54,12 +87,12 @@
                         Enterprise
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownEnterprise">
-                        <a class="dropdown-item" href="https://www.google.dk/">Action</a>
-                        <a class="dropdown-item" href="https://www.google.dk/">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://www.google.dk/">Something else here</a>
+                        <a class="dropdown-item" href="https://www.google.dk/">Skoler</a>
+                        <a class="dropdown-item" href="https://www.google.dk/">Print Farme</a>
+
                     </div>
                 </li>
+
 
             </ul>
 
@@ -71,3 +104,39 @@
 
 </section>
 <!--navigation-end-->
+<style>
+    /*==== NAVIGATION ====*/
+
+
+    .navbar-brand img {
+        height: 3rem;
+
+
+
+    }
+    .navbar{
+        font-size: 1.10rem;
+        letter-spacing: 0.07rem;
+        z-index:99;
+        margin:10px;
+
+    }
+    .nav-link{
+        color: white!important;
+    }
+
+    .nav-link:hover{
+        color: #bcd5f1 !important;
+        font-weight: 450;
+    }
+
+    .btn{
+        margin:0.6rem;
+        padding-left: 1.8rem !important;
+        padding-right: 30px!important;
+        border-radius: 2px!important;
+
+
+    }
+
+</style>

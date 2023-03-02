@@ -7,6 +7,15 @@
     <div id="carousel" class="carousel slide" data-ride="carousel"
          data-interval="5000"><!--intervalet mellem billede slides sat til 5 sekunder-->
         <!--Carousel Content-->
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+
+        </ul>
+
         <div class="carousel-inner" >
 
             <div class="carousel-item active">
@@ -96,8 +105,70 @@
            data-slide="next">
             <span class="fas fa-chevron-right fa-2x"></span>
         </a>
-<h>hej</h>
+
         <!--Previous and Next Buttons-->
     </div>
 </section>
 <!--End Image Carousel-->
+<style>
+
+
+    /*==== Carousel ====*/
+
+    #carousel{
+        box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
+        margin-top: -100px;
+        margin-bottom: 10px;
+
+
+    }
+
+
+    .carousel-inner{
+        max-height: 42rem!important;
+
+
+    }
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active{
+        transition: transform 1.2s ease;
+    }
+    /*==== Carousel  content====*/
+
+    .carousel-caption{
+
+        position: absolute;
+        top: 48%;
+        transform: translateY(-50%);
+
+
+    }
+
+    .bg-custom{
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+        border-radius: 1rem;
+
+    }
+    .carousel-caption h1{
+        font-size: 2.7rem!important;
+        text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
+
+    }
+
+    .border{
+        border-bottom: .2rem solid !important;
+        background-color: #bcd5f1 !important;
+    }
+    .carousel-caption p{
+        font-size: 1.3rem;
+        text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
+
+    }
+    .btn-light:hover{
+        background-color: #bcd5f1 !important;
+    }
+
+
+</style>
